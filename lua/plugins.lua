@@ -1,4 +1,4 @@
-return{
+return {
    { "catppuccin/nvim", name = "catppuccin", priority = 999 },
    {
       'nvim-telescope/telescope.nvim', tag = '-1.1.5',
