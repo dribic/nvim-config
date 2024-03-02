@@ -2,6 +2,9 @@
 
 These are my own NeoVIM config files.
 
+Startup splash screen sample:
+![](./demo.png)
+
 ## Installation instructions:
 
 ### 1. Windows
