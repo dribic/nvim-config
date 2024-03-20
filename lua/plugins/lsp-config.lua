@@ -10,6 +10,7 @@ return {
 		config = function()
 			require("mason-lspconfig").setup({
 				ensure_installed = {
+					"clangd",
 					"lua_ls",
 					"rust_analyzer",
 					"gopls",
@@ -33,6 +34,9 @@ return {
             capabilities = capabilities,
          })
 			lspconfig.gopls.setup({
+            capabilities = capabilities,
+         })
+		 	lspconfig.clangd.setup({
             capabilities = capabilities,
          })
 			vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
